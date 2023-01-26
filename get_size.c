@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
- * get_size - calculates size to cast the args
- * @format: formatted string to print the args
- * @i: list of args
- * Return:size
+ * get_size - Calculates the size to cast the argument
+ * @format: Formatted string in which to print the arguments
+ * @i: List of arguments to be printed.
+ *
+ * Return: Precision.
  */
 int get_size(const char *format, int *i)
 {
